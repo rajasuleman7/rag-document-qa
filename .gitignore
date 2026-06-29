@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Vector stores (can be large — regenerate from source)
+vectorstore/*/
+
+# Python
+__pycache__/
+*.py[cod]
+.eggs/
+dist/
+build/
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Uploads / temp
+*.tmp
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db

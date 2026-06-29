@@ -1,0 +1,30 @@
+Title: The Impact of Retrieval-Augmented Generation on Enterprise Knowledge Management
+
+Abstract:
+This paper examines how Retrieval-Augmented Generation (RAG) systems are transforming enterprise knowledge management. We analyse deployment patterns across 50 organisations, measuring accuracy, latency, and user satisfaction compared to traditional search systems.
+
+1. Introduction
+Large language models have demonstrated remarkable capabilities in natural language understanding and generation. However, their reliance on static training data limits their usefulness in enterprise contexts where information changes frequently. RAG addresses this limitation by combining retrieval from live knowledge bases with generative language model responses.
+
+2. Methodology
+We conducted a mixed-methods study across 50 enterprises over 12 months. Participants were divided into control groups using traditional keyword search and experimental groups using RAG-based systems. Key metrics included answer accuracy (verified by domain experts), query latency, and user satisfaction scores.
+
+3. Results
+RAG systems demonstrated a 47% improvement in answer accuracy compared to keyword search. Average query latency increased by 1.2 seconds but user satisfaction improved by 34%. Organisations with more than 10,000 documents saw the greatest accuracy gains.
+
+4. Key Findings
+- Chunk size of 500-1000 tokens yields optimal retrieval precision
+- MMR (Maximal Marginal Relevance) reduces redundancy in retrieved chunks by 28%
+- Hybrid search (dense + sparse) outperforms pure dense retrieval by 12%
+- Conversational memory improves follow-up question accuracy by 41%
+
+5. Limitations
+This study was limited to English-language documents. Performance on multilingual corpora and highly technical domains (legal, medical) may vary. Fine-tuned embedding models were not evaluated.
+
+6. Conclusions
+RAG represents a significant advancement in enterprise knowledge systems. The combination of semantic retrieval and generative summarisation enables more natural and accurate information access than traditional approaches. Future work should examine fine-tuned embeddings and domain-specific chunking strategies.
+
+References:
+[1] Lewis et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. NeurIPS.
+[2] Karpukhin et al. (2020). Dense Passage Retrieval for Open-Domain Question Answering. EMNLP.
+[3] Guu et al. (2020). REALM: Retrieval-Augmented Language Model Pre-Training. ICML.

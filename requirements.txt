@@ -1,0 +1,21 @@
+# Core RAG stack
+langchain>=0.3
+langchain-community>=0.3
+langchain-openai>=0.2
+langchain-core>=0.3
+langchain-text-splitters>=0.3
+openai>=1.45
+
+# Vector store
+faiss-cpu>=1.8
+
+# Document loaders
+pypdf>=4.3
+
+# UI
+streamlit>=1.38
+
+# Utilities
+python-dotenv>=1.0
+numpy>=1.26
+pytest>=8.0
